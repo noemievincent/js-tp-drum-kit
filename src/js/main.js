@@ -29,7 +29,6 @@
 
       });
 
-
       this.eKeys.forEach(function (eKey) {
         eKey.addEventListener('transitionend', (elem) => {
           elem.currentTarget.classList.remove('playing');
